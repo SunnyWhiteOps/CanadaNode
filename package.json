@@ -1,0 +1,14 @@
+{
+  "name": "canada",
+  "version": "1.0.0",
+  "description": "Jenkins Continuous Integration",
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha --recursive -R xunit test/ > test-reports.xml"
+  },
+  "author": "Sunny"
+}
