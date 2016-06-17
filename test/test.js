@@ -18,7 +18,7 @@ describe("ProvinceFullName.getProvinceFullNameByShort()", function () {
   it("should get full name for bc (case insensitive)", function () {
     assert.equal(m.getProvinceFullNameByShort('bc'), 'British Columbia');
   });
-/*
+
   it("should get full name for MB (case insensitive)", function () {
     assert.equal(m.getProvinceFullNameByShort('MB'), 'Manitoba');
   });
@@ -127,9 +127,8 @@ describe("ProvinceFullName.getProvinceFullNameByShort()", function () {
     assert.equal(m.getProvinceFullNameByShort('12'), undefined);
   });
   
-  
   it("should return undefined for 加州", function () {
     assert.equal(m.getProvinceFullNameByShort('加州'), undefined);
   });
-  */
+  
 });
