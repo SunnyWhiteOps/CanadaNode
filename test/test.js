@@ -2,7 +2,7 @@ var assert = require("assert");
 var m      = require("../ProvinceFullName");
 
 describe("ProvinceFullName.getProvinceFullNameByShort()", function () {
-/*
+
   it("should get full name for AB (case insensitive)", function () {
     assert.equal(m.getProvinceFullNameByShort('AB'), 'Alberta');
   });
@@ -10,7 +10,6 @@ describe("ProvinceFullName.getProvinceFullNameByShort()", function () {
   it("should get full name for ab (case insensitive)", function () {
     assert.equal(m.getProvinceFullNameByShort('ab'), 'Alberta');
   });
-*/
 
   it("should get full name for BC (case insensitive)", function () {
     assert.equal(m.getProvinceFullNameByShort('BC'), 'British Columbia');
@@ -19,7 +18,7 @@ describe("ProvinceFullName.getProvinceFullNameByShort()", function () {
   it("should get full name for bc (case insensitive)", function () {
     assert.equal(m.getProvinceFullNameByShort('bc'), 'British Columbia');
   });
-  
+/*
   it("should get full name for MB (case insensitive)", function () {
     assert.equal(m.getProvinceFullNameByShort('MB'), 'Manitoba');
   });
@@ -132,4 +131,5 @@ describe("ProvinceFullName.getProvinceFullNameByShort()", function () {
   it("should return undefined for 加州", function () {
     assert.equal(m.getProvinceFullNameByShort('加州'), undefined);
   });
+  */
 });
